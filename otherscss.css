@@ -1,0 +1,84 @@
+
+
+ html, body {
+  margin: 0;
+  height: 100%;            
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+  color: white;
+}
+p{
+  color: white;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+ol{
+  text-align: center;
+
+}
+li{
+  text-align: center;
+}
+a{
+   text-decoration: none;
+}
+
+.emails{
+  position: relative;
+  height: 200px;
+  width: 50%;              /* half the page width */
+  margin: 0 auto;          /* center horizontally */
+  background-color: lavender;
+  display: flex;
+  justify-content: center; /* keep circles grouped in the middle */
+  align-items: center;     /* vertical centering */
+  gap: 20px;               /* spacing between circles */
+  border: 2px solid black;
+  border-radius: 9px;
+}
+.phonecontacts{
+  position: relative;
+  height: 200px;
+  width: 50%;              /* half the page width */
+  margin: 0 auto;          /* center horizontally */
+  background-color: lavender;
+  display: flex;
+  justify-content: center; /* keep circles grouped in the middle */
+  align-items: center;     /* vertical centering */
+  gap: 20px;               /* spacing between circles */
+  border: 2px solid black;
+  border-radius: 9px;
+}
+.githubcontacts{
+ position: relative;
+  height: 200px;
+  width: 50%;              /* half the page width */
+  margin: 0 auto;          /* center horizontally */
+  background-color: lavender;
+  display: flex;
+  justify-content: center; /* keep circles grouped in the middle */
+  align-items: center;     /* vertical centering */
+  gap: 20px;               /* spacing between circles */
+  border: 2px solid black;
+  border-radius: 9px;
+}
+.socialmedia{
+ position: relative;
+  height: 300px;
+  width: 50%;              /* half the page width */
+  margin: 0 auto;          /* center horizontally */
+  background-color: powderblue;
+  display: flex;
+  justify-content: center; /* keep circles grouped in the middle */
+  align-items: center;     /* vertical centering */
+  gap: 20px;               /* spacing between circles */
+  border: 2px solid black;
+  border-radius: 9px;
+}
